@@ -1,0 +1,9 @@
+@import "../variables.scss";
+
+.alert{
+    position: absolute;
+    margin: auto;
+    top: 20px;
+    right: 20px;
+    z-index: 5;
+}

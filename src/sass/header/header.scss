@@ -1,0 +1,28 @@
+@import "../variables.scss";
+
+.nav{
+    max-width: 600px;
+    width: 100%;
+
+    & .logo{
+        margin: 20px 0;
+        
+        & .link{
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: $font-color;
+        }
+
+        & .icon{
+            font-size: 25px;
+            margin: 0 10px;
+        }
+
+        & p{
+            font-size: 25px;
+            font-weight: 600;
+            color: $font-color;
+        }
+    }
+}
